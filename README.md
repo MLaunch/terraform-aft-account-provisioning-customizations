@@ -1,17 +1,11 @@
 # Learn Terraform - Use Control Tower Account Factory for Terraform
 
-This is a companion repository for the [Provision and Manage Accounts with
-Control Tower Account Factory for Terraform
-tutorial](https://learn.hashicorp.com/tutorials/terraform/aws-control-tower-aft)
-tutorial on HashiCorp Learn.
+This is a companion repository for the [Provision and Manage Accounts with Control Tower Account Factory]
 
-This repository contains boilerplate configuration for defining account
-provisioning customizations to use with the Account Factory for Terraform
-module. The README below and the template files in this repository were
-provided by AWS.
+This repository contains boilerplate configuration for defining account provisioning customizations to use with the Account Factory for Terraform
+module. The README below and the template files in this repository were provided by AWS.
 
-To create your own state machine and step functions, replicate this repository
-and extend the Terraform configuration.
+To create your own state machine and step functions, replicate this repository and extend the Terraform configuration.
 
 ## AFT Account Provisioning Customizations Customizations
 
@@ -19,14 +13,10 @@ and extend the Terraform configuration.
 
 AFT provides flexibility to customize the provisioning process for new accounts and integrate with systems prior to the account customization stage.
 
-While the customization stage does include integrations for pre- and post-
-customization steps, the Account Provisioning standard allows for further
-integration by using an AWS Step Functions State Machine to integrate with
-additional environments.
+While the customization stage does include integrations for pre- and post-customization steps, the Account Provisioning standard allows for further
+integration by using an AWS Step Functions State Machine to integrate with additional environments.
 
-Using this state machine integration, customers may define Account Provisioning
-Customizations steps as:
-
+Using this state machine integration, customers may define Account Provisioning Customizations steps as:
 * Lambda functions in the language of their choice
 * ECS or Fargate Tasks using docker containers
 * AWS Step Functions Activities using custom workers, hosted either in AWS or on-prem
