@@ -1,4 +1,4 @@
-# Learn Terraform - Use Control Tower Account Factory for Terraform
+# Control Tower Account Factory for Terraform
 
 This is a companion repository for the [Provision and Manage Accounts with Control Tower Account Factory]
 
